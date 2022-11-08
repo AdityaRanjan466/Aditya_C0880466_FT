@@ -13,6 +13,7 @@
 		188333F32919CD16002318D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188333F12919CD16002318D0 /* Main.storyboard */; };
 		188333F52919CD17002318D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188333F42919CD17002318D0 /* Assets.xcassets */; };
 		188333F82919CD17002318D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188333F62919CD17002318D0 /* LaunchScreen.storyboard */; };
+		1899C9482919EAFC00E54B24 /* OddlyEvenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899C9472919EAFC00E54B24 /* OddlyEvenVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		188333F42919CD17002318D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		188333F72919CD17002318D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		188333F92919CD17002318D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1899C9472919EAFC00E54B24 /* OddlyEvenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddlyEvenVC.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		188333EA2919CD16002318D0 /* Aditya_C0880466_FT */ = {
 			isa = PBXGroup;
 			children = (
+				1899C9472919EAFC00E54B24 /* OddlyEvenVC.swift */,
 				188333EB2919CD16002318D0 /* AppDelegate.swift */,
 				188333ED2919CD16002318D0 /* SceneDelegate.swift */,
 				188333EF2919CD16002318D0 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				188333F02919CD16002318D0 /* ViewController.swift in Sources */,
 				188333EC2919CD16002318D0 /* AppDelegate.swift in Sources */,
 				188333EE2919CD16002318D0 /* SceneDelegate.swift in Sources */,
+				1899C9482919EAFC00E54B24 /* OddlyEvenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

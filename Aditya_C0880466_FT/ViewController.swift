@@ -36,9 +36,15 @@ class ViewController: UIViewController {
         if isEven(currentNumber!){
             ansDecision.image = UIImage(named: "Correct")
             setRandomvalue()
+            let infoAlert = UIAlertController(title: "Result", message: "Congratulations! Correct answer", preferredStyle: .alert)
+            infoAlert.addAction(UIAlertAction(title: "Play again!", style: .default, handler: nil))
+            self.present(infoAlert, animated: true)
         }else{
             ansDecision.image = UIImage(named: "InCorrect")
             setRandomvalue()
+            let infoAlert = UIAlertController(title: "Result", message: "Oops! Wrong answer...correct answer is odd" , preferredStyle: .alert)
+            infoAlert.addAction(UIAlertAction(title: "Play again!", style: .default, handler: nil))
+            self.present(infoAlert, animated: true)
         }
     }
     
@@ -53,9 +59,15 @@ class ViewController: UIViewController {
             if isEven(currentNumber!){
                 ansDecision.image = UIImage(named: "InCorrect")
                 setRandomvalue()
+                let infoAlert = UIAlertController(title: "Result", message: "Oops! Wrong answer...correct answer is even", preferredStyle: .alert)
+                infoAlert.addAction(UIAlertAction(title: "Play again!", style: .default, handler: nil))
+                self.present(infoAlert, animated: true)
             }else{
                 ansDecision.image = UIImage(named: "Correct")
                 setRandomvalue()
+                let infoAlert = UIAlertController(title: "Result", message: "Congratulations! Correct answer", preferredStyle: .alert)
+                infoAlert.addAction(UIAlertAction(title: "Play again!", style: .default, handler: nil))
+                self.present(infoAlert, animated: true)
             }
         }
     
